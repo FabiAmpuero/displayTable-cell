@@ -17,7 +17,6 @@ body {
 /* completa tu codigo aqui */
 li {
     list-style: none;
-    display: block;
 }
 .azul {
     background: #66b3ff;
@@ -43,11 +42,10 @@ li {
     font-weight: bold;
     width: 100px;
     height: 100px;
-    display: table-cell;
+    display: block;
 }
 a:hover .bo {
     display: block;
-    transition: 1s;
 }
 .bo {
     background: #7b7b7b;
