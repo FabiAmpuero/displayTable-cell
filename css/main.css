@@ -14,41 +14,46 @@ fieldset, input, textarea, blockquote {
 body {
     background: #ffffff;
 }
-
 /* completa tu codigo aqui */
-nav li ul {
-    display: none;
-    position: absolute;
-    left: 100px;
-    top: 0px;
-}
-li {
-    background: yellow;
-    width: 100px;
-    height: 100px;
-}
-nav li:hover ul {
-    display: block;
-    vertical-align: middle;
-}
-a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0);
-}
 li {
     list-style: none;
+    display: block;
 }
-nav li {
-    position: relative;
+.azul {
+    background: #66b3ff;
+    color: #66b3ff;
 }
-li ul li {
-    background: black;
+.celeste {
+    background: #66ffcc;
+    color: #66ffcc;
 }
-li ul li a {
-    color: white;
+.melon {
+    background: #ffaa80;
+    color: #ffaa80;
+}
+.rosado {
+    background: #ff99bb;
+    color: #ff99bb;
+}
+.box {
+    vertical-align: middle;
+    text-decoration: none;
     font-family: Dosis;
-    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    display: table-cell;
 }
-ul {
-    vertical-align: middle;
+a:hover .bo {
+    display: block;
+    transition: 1s;
 }
+.bo {
+    background: #7b7b7b;
+    padding: 40px 0px;
+    width: 100px;
+    display: none;
+    margin-left: 100px;
+}
+
