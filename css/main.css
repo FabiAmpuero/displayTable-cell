@@ -42,7 +42,7 @@ li {
     font-weight: bold;
     width: 100px;
     height: 100px;
-    display: block;
+    display: table-cell;
 }
 a:hover .bo {
     display: block;
